@@ -1,0 +1,376 @@
+.rog-logo
+{
+    width: 80%;
+    margin-left: 4rem;
+}
+
+@media screen and (max-width:760px){
+    .rog-logo
+    {
+        width: 30%;
+        margin-left: 10rem;
+    }
+
+    
+
+}
+
+@media screen and (max-width:968px) {
+    .rigth-head
+    {
+        margin-left: 9%;
+    }
+}
+.bg-black
+{
+    display: flex;
+}
+.header-menu
+{
+    list-style-type: none;
+    display: flex;
+    font-size: 80%;
+    margin-bottom: 0px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+
+.head-products
+{
+    color: white;
+}
+
+.head-products:hover
+{
+    color: red;
+}
+.rigth-head
+{
+    margin-left: 20%;
+}
+.rigth-menu
+{
+    display: flex;
+}
+.asus-logo
+{
+    width: 20%;
+    float: left;
+    margin-top: 4%;
+}
+.search-icon
+{
+    margin-left: 10%;
+}
+.explore-text
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+
+     
+}
+.laptops-img
+{
+    width: 90%;
+}
+.motherboard-img
+{
+    width: 90%;
+}
+.graphicscard-img
+{
+    width: 90%;
+}
+.monitors-img
+{
+    width: 90%;
+}
+.phones-img
+{
+    width: 90%;
+}
+.product-cat
+{
+    width: 100%;
+    height: 28rem;
+    background-color: white;
+    justify-content: center;
+}
+.product-name
+{
+    display: flex;
+    color: black;
+}
+
+.Laptops
+{
+    margin-left: 4%;
+
+}
+.Laptops:hover
+{
+    color: red;
+    cursor: pointer;
+
+}
+.Motherboards
+{
+    margin-left: 16%;
+}
+.Motherboards:hover
+{
+    color: red;
+    cursor: pointer;
+
+}
+.Graphics
+{
+    margin-left: 10%;
+}
+.Graphics:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.Monitors
+{
+    margin-left: 13%;
+}
+.Monitors:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.Phones
+{
+    margin-left: 15%;
+    cursor: pointer;
+}
+.Phones:hover
+{
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width:1338px) {
+    .Laptops
+{
+    display: none;
+
+}
+.Motherboards
+{
+    display: none;}
+.Graphics
+{
+    display: none;}
+.Monitors
+{
+    display: none;}
+.Phones
+{
+    display: none;}
+}
+
+.image-live1
+{
+    float: left;
+    background-image: url("img/rog_mouse.jpg");
+    background-size: cover;
+    height: 30em;
+    width: 10em;
+    color: white;
+    margin-left: 2.5rem;
+    padding-top:26% ;
+}
+.image-live2
+{
+    background-image: url("img/rog_monitor.jpg");
+    background-size: cover;
+    height: 30em;
+    width: 26em;
+    color: white;
+    margin-left: 2em;
+    padding-top:26% ;
+
+}
+.image-live3
+{
+    
+    background-image: url("img/rog_ram.jpg");
+    background-size: cover;
+    height: 30em;
+    color: white;
+    margin-left: 2em;
+    padding-top:26% ;
+    
+
+}
+.image-live4
+{  
+    background-image: url("img/rog_monitor_lap.jpg");
+    background-size: cover;
+    float: left;
+    color: white;
+    padding-top:26% ;
+    margin-left: 6em;
+    margin-top: 3em;
+}
+.image-live5
+{
+   
+    background-image: url("img/rog_alenwalker.jpg");
+    background-size: cover;
+    float: left;
+    color: white;
+    padding-top:26% ;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+
+.live-for-div
+{
+    padding-top: 5em;
+    /* display: flex; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    background-image: url("img/rog_bg_pattern.jpg");
+    width: 100%;
+    height: 70rem;
+    text-align: center;
+    
+    
+    
+}
+.live-for-1
+{
+    display: flex;
+}
+@media screen and (max-width:1100px) {
+    .monitors-img
+    {
+        display: none;
+    }
+    .phones-img
+    {
+        display: none;
+    }
+
+    .laptops-img
+    {
+        width: 150%;
+        margin-left: 10%;
+    }
+    .motherboard-img
+    {
+        width: 150%;
+        margin-left: 100%;
+    }
+    .graphicscard-img
+    {
+        width: 150%;
+        margin-left: 150%;
+        float: left;
+    }
+    .explore-text
+    {
+        margin-bottom: 5%;
+        
+    }
+    
+
+}
+@media screen and (max-width:770px) {
+    .image-live2
+            {
+                display: none;
+
+            }
+            .image-live3
+            {
+                display: none;
+            }
+            .image-live1
+            {
+                display: none;
+            }
+        
+}
+.banner1
+{
+    color: black;
+    font-weight: 400;
+    font-size: large;
+}
+.banner1::first-line
+{
+    color: red;
+    font-weight: bold;
+}
+.banner1:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.rog-action
+{
+    /* display: flex; */
+    /* display: grid;
+    grid-template-rows: ; */
+}
+.action1
+{
+    margin-left: 5%;
+}
+.action2
+{
+    margin-left: 5%;
+}
+.action3
+{
+    margin-left: 5%;
+}
+@media screen and (max-width:771px) {
+    .rigth-head
+    {
+        display: none;
+    }
+    
+}
+.footer
+{
+    background-image: url("img/footer_rog_logo.jpg");
+    width: 100%;
+    height: 30em;
+    background-position: center;
+    padding-top: 3%;
+}
+html{
+    overflow-x: hidden;
+}
+.social-media
+{
+    float: right;
+    margin-right: 5%;
+    
+}
+.facebook
+{
+    margin-right: 20px;
+}
+.twitter
+{
+    margin-right:20px;
+}
+.youtube
+{
+    margin-right: 20px;
+}
+.aboutrog
+{
+    color: white;
+    margin-left: 10%;
+}
